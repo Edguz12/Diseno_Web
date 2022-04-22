@@ -286,28 +286,38 @@ extensión .html
 actividad pero sí todo el código HTML5 que da estructura a cada una de las
 secciones que se muestran en la imagen de arriba.
 
-        <!DOCTYPE html>
+               <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <head>
+                <title>TITULO DE PAGINA</title>
+            </head> 
+            <body>
+                <header>
+                    <h1>ENCABEZADO NIVEL 1</h1> <br>
+                    <nav>ENLACE 1 ENLACE 2 ENLACE 3 ENLACE 4.</nav> <hr> </header>
+                <main> 
+                    <section>
+                        <h2>ENCABEZADO NIVEL 2</h2><br> 
 
-            <title>TITULO DE PAGINA</title>
-        </head> 
-        <body>
-            <h1>ENCABEZADO NIVEL 1</h1> <br>
-        <nav>ENLACE 1 ENLACE 2 ENLACE 3 ENLACE 4.</nav>
-            <section>
-            <h2>ENCABEZADO NIVEL 2</h2><br> 
-
-            <p>AQUI VA EL TEXTO DEL PRIMER PARRAFO</p><br>
-            <p>AQUI VA EL TEXTO DEL SEGUNDO PARRAFO</p> </section> <aside><h2>apartado</h2> 
-                <form action="#">
-                elige una opcion <br>
-            <input type="checkbox" name="opcion 1" />OPCION 1<br>
-            <input type="checkbox" name="opcion 2" > OPCION 2 <br>
-            <input type="checkbox" name="opcion 3"> OPCION 3 <br>
-            <input type="submit" value="Enviar">
-        </form></aside>
-        <footer> <p> SECCION DE INFORMACION DE CONTACTO, DERECHOS DE AUTOR. ETC</p></footer>
-        </body>
+                        <p>AQUI VA EL TEXTO DEL PRIMER PARRAFO</p><br>
+                        <p>AQUI VA EL TEXTO DEL SEGUNDO PARRAFO</p>  <hr> 
+                   </section> 
+                    <aside><h2>apartado</h2> 
+                        <form action="#">
+                        elige una opcion <br>
+                        <input type="checkbox" name="opcion 1" />OPCION 1<br>
+                        <input type="checkbox" name="opcion 2" > OPCION 2 <br>
+                        <input type="checkbox" name="opcion 3"> OPCION 3 <br>
+                        <input type="submit" value="Enviar">
+                        </form>
+                    </aside><hr>
+                </main>   
+                <footer> <p> SECCION DE INFORMACION DE CONTACTO, DERECHOS DE AUTOR. ETC</p></footer>
+            </body>
 
         </html>
+
