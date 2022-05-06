@@ -219,7 +219,7 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
           
           INGRESA AQUI EL CSS
           
-          /* Aqui esta el estilo de header */
+                    /* Aqui esta el estilo de header */
           ul { list-style-type: none;
           display: flex;
           justify-content: right;}
@@ -229,8 +229,25 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
                     padding-right: 10%;
                     color: rgb(0, 128, 0)
           }
-          /*Aqui esta el main */
-          main{background: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);}
+          /* Aqui esta el main */
+          main{
+                    padding: 10%; 
+                    background-image: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
+                    background-repeat: no-repeat;
+                    width: 100%;}
+
+          h1 {
+                    margin: 0%;
+                    text-align: left;
+                    color: aliceblue;
+          }	
 
 
+          /* Aqui esta el footer */
+          footer{ 
+                    text-align: center;
+                    }
+          h2{
+                    color: gold;
+          }
            Ingresa el link a tu página del proyecto final
